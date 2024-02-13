@@ -12,4 +12,4 @@
 /.clangd
 /.clang-format
 /.clang-tidy
-
+build.gradle
