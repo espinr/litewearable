@@ -1,0 +1,19 @@
+<div class="container" on:swipe="closeApp">
+    <div class="display">
+        <div class="reading-animation" if="{{readingHR}}" >
+            <image-animator class="heart" ref="animator" images="{{heartFrames}}" duration="0.4s" />
+            <text class="hr" >{{hr}}</text>
+        </div>
+        <text class="title" else>{{message}}</text>
+        <chart class="chart" type="line" ref="linechart" options="{{lineOps}}" datasets="{{lineData}}"></chart>
+    </div>
+
+    <stack class="menu">
+        <div class="buttons">
+            <input if="{{readingHR}}" type="button" class="button-action" value="Stop" on:click="stopReading"></input>
+        </div>
+        <div class="buttons">
+            <input if="{{!readingHR}}" type="button" class="button-action" value="Start" on:click="startReading"></input>
+        </div>
+    </stack>
+</div>

@@ -1,0 +1,62 @@
+.container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+}
+.display {
+    width: 100%;
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+.menu {
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.buttons {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.button-action {
+    width: 200px;
+    height: 50px;
+    background-color: #ED146F;
+    color: #EDE5E2;
+}
+.reading-animation {
+    width: 100%;
+    height: 90px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hr {
+    color: #ED146F;
+    height: 45px;
+}
+.heart {
+    width: 45px;
+    height: 45px;
+}
+.chart {
+    height: 150px;
+    width: 100%;
+}
+.title {
+    font-size: 30px;
+    text-align: center;
+    width: 80%;
+    color: #EDE5E2;
+}
