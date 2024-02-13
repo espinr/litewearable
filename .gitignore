@@ -13,3 +13,5 @@
 /.clang-format
 /.clang-tidy
 build.gradle
+local.properties
+
