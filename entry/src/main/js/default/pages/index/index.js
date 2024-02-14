@@ -79,9 +79,10 @@ export default {
             },
         });
         // Handling local files to store the values (just testing, no other purpose)
-        this.getListStoredFiles();      // Just to list the app file system directory
-        this.readStoredFile();          // Reads the stored file in the app
-        this.deleteStoredFile();        // Remove the file if existed
+        // Uncomment the following lines to test it
+        //this.getListStoredFiles();      // Just to list the app file system directory
+        //this.readStoredFile();          // Reads the stored file in the app
+        //this.deleteStoredFile();        // Remove the file if existed
     },
     onDestroy() {
         sensor.unsubscribeOnBodyState();
